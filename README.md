@@ -1,5 +1,5 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/ovallejo/reto_lulobank/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ovallejo/reto_lulobank/tree/main)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ovallejo_reto_lulobank&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ovallejo_reto_lulobank)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ovallejo_lulobank&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ovallejo_lulobank)
 # Dummy Rest API Example Automation
 
 ## Beginning With 🚀

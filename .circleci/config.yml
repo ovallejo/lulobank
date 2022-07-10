@@ -9,6 +9,9 @@ jobs:
           name: Build
           command: mvn -B -DskipTests clean package
       - run:
+          name: Analyze on SonarCloud
+          command: mvn verify sonar:sonar -Dsonar.projectKey=ovallejo_lulobank
+      - run:
           name: Automation Test
           command: mvn clean verify
       - store_artifacts:
