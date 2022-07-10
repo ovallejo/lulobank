@@ -10,7 +10,7 @@ jobs:
           command: mvn -B -DskipTests clean package
       - run:
           name: Automation Test
-          command: mvn test
+          command: mvn clean verify
       - store_artifacts:
           path: target/site/serenity
 workflows:
