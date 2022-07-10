@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ovallejo/reto_lulobank/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ovallejo/reto_lulobank/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ovallejo/lulobank/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ovallejo/lulobank/tree/main)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ovallejo_lulobank&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ovallejo_lulobank)
 # Dummy Rest API Example Automation
 
@@ -13,39 +13,14 @@
 ## Prerequisites 🌎
 
   * _JDK 8_
-  * _Gradle 7+_
+  * _Maven_
 
-## Tests Execution ⛷️
-
-### Get All Employee Data Test Set Execution
-```
-gradlew clean test --tests *AllEmployeesDataTest -i
+## Parallel Tests Execution ⛷️
 
 ```
-
-### Get Employee Data Test Set Execution
-```
-gradlew clean test --tests *EmployeeDataTest -i
-
+mvn clean verify
 ```
 
-### Create a New Employee Test Set Execution
-```
-gradlew clean test --tests *CreateEmployeeTest -i
-
-```
-
-### Update Employee Record Test Set Execution
-```
-gradlew clean test --tests *UpdateEmployeeDataTest -i
-
-```
-
-### Delete an Employee Record Test Set Execution
-```
-gradlew clean test --tests *DeleteEmployeeRecordTest -i
-
-```
 
 ## Built with 🛠
 
