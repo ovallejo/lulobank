@@ -13,6 +13,8 @@ jobs:
           command: mvn clean verify sonar:sonar -Dsonar.projectKey=ovallejo_lulobank
       - store_artifacts:
           path: target/site/serenity
+      - store_test_results:
+          path: target/failsafe-reports
 workflows:
   main:
     jobs:
